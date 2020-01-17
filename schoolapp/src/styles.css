@@ -7,6 +7,9 @@ body{margin:0;font-family:'Roboto', sans-serif;}
 .header{justify-content:space-between;}
 .user-profile{margin-left:15px;}
 .mat-sidenav-container{height:100%;display:flex;flex:1 1 auto;float:left;}
+.mat-list-base {
+    padding-top: 50px !important;
+}
 .mat-nav-list .mat-list-item{font-size:15px;}
 .nav-tool-items{display:inline-block;margin-right:13px;}
 .user-profile{margin-left:15px;cursor:pointer;}
