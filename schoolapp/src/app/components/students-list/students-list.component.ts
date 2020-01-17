@@ -12,7 +12,7 @@ import { MatPaginator, MatTableDataSource } from '@angular/material';
 export class StudentsListComponent implements OnInit {
   StudentData: any = [];
   dataSource: MatTableDataSource<Student>;
-  @ViewChild(MatPaginator,{static:true}) paginator: MatPaginator;
+  @ViewChild(MatPaginator,{static:false}) paginator: MatPaginator;
   displayedColumns: string[] = ['_id', 'student_name', 'student_email', 'section', 'action'];
 
   constructor(private studentApi: ApiService) {

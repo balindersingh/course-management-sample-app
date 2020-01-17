@@ -16,11 +16,13 @@ Alternatively you can just run it from its installation folder by running follow
 ```
 # How to run schoolbackendapp
 ```
-cd schoolappbackend && node app.js
+cd schoolappbackend && npm install && node app.js
 ```
 # How to run angular front end app
 ```
-cd schoolapp && ng serve
+cd schoolapp && npm install && ng serve
 ```
+# NOTE
+* npm install needs to be run only first time after you clone the repo so that it insall all the dependencies individual projects need
 # Reference
 Full credit to this tutorial : https://www.positronx.io/angular-8-mean-stack-tutorial-build-crud-angular-material/
